@@ -1,0 +1,65 @@
+@charset "utf-8";
+body {
+    font-size: 12px!important;
+    font-weight: 400!important;
+    font-family: 'Microsoft yahei';
+    background: #f6f6f6!important;
+}
+
+.sp-footer {
+    margin-top: 10px;
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+    #footer_info {
+        background: #333;
+        height: 44px;
+        line-height: 36px;
+        color: #666;
+        text-align: center;
+        overflow: hidden;
+        a {
+            float: left;
+            display: inline;
+            vertical-align: middle;
+            width: 105px;
+            text-align: center;
+            border-right: 1px solid #474747;
+            color: #fff;
+            padding: 4px 0;
+            overflow: hidden;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    }
+    #footer_record {
+        padding: 12px 0;
+        text-align: center;
+        line-height: 30px;
+        a {
+            padding: 0 8px 0 0;
+            color: #333;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        i {
+            font-style: normal;
+        }
+    }
+    #footer_auth {
+        padding: 0 0 20px;
+        text-align: center;
+        a {
+            padding: 0 4px;
+            font-size: 0;
+            display: inline-block;
+            width: 76px;
+            height: 22px;
+            color: #333;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@charset "utf-8";
+body {
+    font-size: 12px!important;
+    font-weight: 400!important;
+    font-family: 'Microsoft yahei';
+    background: #f6f6f6!important;
+}
+
+#logo {
+    background: #f6f6f6;
+    padding: 20px 0;
+    text-align: center;
+    height: 40px;
+}
+
+.box {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative
+}

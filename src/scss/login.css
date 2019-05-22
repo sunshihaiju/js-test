@@ -1,0 +1,194 @@
+@charset "UTF-8";
+body {
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  font-family: 'Microsoft yahei';
+  background: #f6f6f6 !important; }
+
+#logo {
+  background: #f6f6f6;
+  padding: 20px 0;
+  text-align: center;
+  height: 40px; }
+
+.box {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative; }
+
+.clr {
+  width: 2000px; }
+  .clr .sp_loginbox {
+    height: 680px;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 36px;
+    float: left;
+    width: 958px;
+    position: relative; }
+    .clr .sp_loginbox .left {
+      width: 590px;
+      float: left; }
+      .clr .sp_loginbox .left .spSgin-box {
+        width: 590px;
+        height: 540px;
+        position: relative;
+        overflow: hidden; }
+
+.clr .splogin_block {
+  background: 0;
+  border: 0 none;
+  width: 496px;
+  text-align: left;
+  padding: 0 0 0 94px;
+  margin-top: 35px;
+  float: left;
+  position: absolute;
+  margin: 10px auto 0; }
+  .clr .splogin_block .tab {
+    width: 410px;
+    height: 28px;
+    line-height: 27px;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 10px;
+    list-style: none; }
+    .clr .splogin_block .tab .dd {
+      color: #000; }
+    .clr .splogin_block .tab li {
+      width: 204px;
+      height: 27px;
+      float: left;
+      line-height: 28px;
+      text-align: center;
+      cursor: pointer;
+      font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', "微软雅黑", "Microsoft YaHei", "黑体", "Tahoma", "宋体";
+      font-size: 13px; }
+      .clr .splogin_block .tab li .login_title {
+        display: inline-block;
+        width: 92px;
+        height: 28px;
+        font-size: 20px;
+        text-decoration: none; }
+  .clr .splogin_block .code-login {
+    height: 440px;
+    width: auto;
+    margin: 20px auto 0; }
+    .clr .splogin_block .code-login dd {
+      height: 270px;
+      padding-top: 45px;
+      position: relative;
+      overflow: visible;
+      color: #3b3b3b; }
+
+.right {
+  width: 367px;
+  height: 440px;
+  margin-top: 100px;
+  border-left: 1px solid #e7e7e7;
+  float: right; }
+  .right #spReg_msg {
+    padding-bottom: 22px; }
+    .right #spReg_msg .newbox {
+      font-size: 16px;
+      padding-left: 61px; }
+      .right #spReg_msg .newbox #new-member {
+        position: relative;
+        width: 115px;
+        text-align: left;
+        font-size: 18px;
+        display: block;
+        padding-left: 55px;
+        margin: 18px 0 0;
+        color: #0700c5;
+        text-decoration: none;
+        cursor: pointer; }
+        .right #spReg_msg .newbox #new-member img {
+          position: absolute;
+          right: -10px;
+          top: 0px;
+          border: 0; }
+  .right .rightinner {
+    width: 300px;
+    margin: 0 auto; }
+    .right .rightinner .other-box {
+      margin-bottom: 34px; }
+      .right .rightinner .other-box .special {
+        border-top: 1px dashed #000;
+        padding-top: 30px;
+        font-size: 14px;
+        text-align: center; }
+      .right .rightinner .other-box .other-inner {
+        padding-left: 0;
+        padding-top: 30px;
+        text-align: center;
+        font-size: 14px; }
+        .right .rightinner .other-box .other-inner a {
+          width: 51px;
+          height: 50px;
+          margin-bottom: 8px;
+          margin-right: 20px;
+          color: #333;
+          text-decoration: none;
+          cursor: pointer;
+          display: inline-block; }
+        .right .rightinner .other-box .other-inner .weibo {
+          background: url(../img/denglu/sina_ico.png) no-repeat 0 0;
+          margin-left: 15px; }
+        .right .rightinner .other-box .other-inner .qq {
+          background: url(../img/denglu/qq_ico.png) no-repeat 0 0; }
+        .right .rightinner .other-box .other-inner .zfb {
+          background: url(../img/denglu/pay_ico.png) no-repeat 0 0;
+          margin-right: 0; }
+
+.sp-footer {
+  margin-top: 10px;
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #fff;
+  position: relative; }
+  .sp-footer #footer_info {
+    background: #333;
+    height: 44px;
+    line-height: 36px;
+    color: #666;
+    text-align: center;
+    overflow: hidden; }
+    .sp-footer #footer_info a {
+      float: left;
+      display: inline;
+      vertical-align: middle;
+      width: 105px;
+      text-align: center;
+      border-right: 1px solid #474747;
+      color: #fff;
+      padding: 4px 0;
+      overflow: hidden;
+      text-decoration: none;
+      cursor: pointer; }
+  .sp-footer #footer_record {
+    padding: 12px 0;
+    text-align: center;
+    line-height: 30px; }
+    .sp-footer #footer_record a {
+      padding: 0 8px 0 0;
+      color: #333;
+      text-decoration: none;
+      cursor: pointer; }
+    .sp-footer #footer_record i {
+      font-style: normal; }
+  .sp-footer #footer_auth {
+    padding: 0 0 20px;
+    text-align: center; }
+    .sp-footer #footer_auth a {
+      padding: 0 4px;
+      font-size: 0;
+      display: inline-block;
+      width: 76px;
+      height: 22px;
+      color: #333;
+      text-decoration: none;
+      cursor: pointer; }
+
+/*# sourceMappingURL=login.css.map */

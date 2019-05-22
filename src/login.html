@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>尚品 - 登录</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+
+<body>
+    <div id="logo" class="box">
+        <a href=""><img src="img/denglu/logo_v101.png" alt="尚品网-奢侈品" style="margin: 0 auto; width: 212px"></a>
+    </div>
+    <p style="font-size: 13px; line-height: 24px; background: #000; color: #fff; text-align: center;">
+        依据《网络安全法》，为保障您的账户安全和正常使用，请尽快完成手机号验证！ 将更有利于保护您的个人隐私。
+    </p>
+    <div class="box" id="loginbox">
+        <div class="clr loginbox">
+            <div class="sp_loginbox">
+                <div class="left">
+                    <div id="sp-box" class="clr">
+                        <div class="spSgin-box" class="clr">
+                            <div class="splogin_block">
+                                <ul class="tab">
+                                    <!-- tab切换 -->
+                                    <li class="dd"><a class="login_title" href="javascript:;">扫码登录</a></li>
+                                    <li class="current"><a class="login_title" href="javascript:;">账户登录</a></li>
+                                </ul>
+                                <!-- 扫码登录 -->
+                                <dl class="code-login" style="display:none;">
+                                    <dd class="scan-code" style="display:none;">
+                                        <div class="login_erweima">
+                                            <img src="img/denglu/QRCodeLoginHandler.gif" alt="">
+                                        </div>
+                                        <div class="login_phone"><img src="img/denglu/code-phone.png" alt=""></div>
+                                    </dd>
+                                    <dd class="lose-code" style="display:block;">
+                                        <div class="lose_erweima"><img src="img/denglu/QRCodeLoginHandler (1).gif" alt=""></div>
+                                        <div class="lose_erweimabg">
+                                            <p class="lose-tips" style="display:none;">二维码已失效</p>
+                                            <p class="fail-tips" style="display: none;">登录失败</p>
+                                            <a href="" class="button">刷新</a>
+                                        </div>
+                                    </dd>
+                                    <dd class="success-code">
+                                        <img src="img/denglu/login-ok.png" alt="">
+                                        <p>扫描成功</p>
+                                        <p style="font-size:14px;color:#ccc">请勿刷新本页面，按手机提示操作。</p>
+
+                                    </dd>
+                                    <p class="scan-tips">打开<a href="javascript:;" style="color: #0700c5;margin-right: 20px;">尚品网APP</a>扫描二维码</p>
+                                </dl>
+                                <!-- 账户登录 -->
+                                <div class="zhanghu-login " style="display:block;">
+                                    <ul class="login-type clr">
+                                        <li class="active-login"><span></span>账号密码登录</li>
+                                        <li class><span></span>动态密码登录</li>
+                                    </ul>
+                                    <dl class="margint40 normal-login" style="display: block;">
+                                        <form action="/login" id="formlogin" method="post" target="hiddenIFrame"><input id="ReturnUrl" name="ReturnUrl" type="hidden" value="http://account.shangpin.com/"><input id="VIId" name="VIId" type="hidden" value="3e9d7e55-696f-4123-a300-fb7e66f9d8d9">
+                                            <dd>
+                                                <!--<em>账号：</em>-->
+                                                <div class="inputparent_rlat" style="position: relative;">
+                                                    <label for="AccountName" style="position: absolute; top: 0px; left: 20px; cursor: text; color: rgb(153, 153, 153); line-height: 45px;">请输入手机号/邮箱</label><input type="text" class="txt_input" phdata="请输入手机号/邮箱"
+                                                        id="spSignin_username" name="AccountName" value="" style="border: 1px solid rgb(177, 173, 170);"><span></span>
+                                                </div>
+                                            </dd>
+                                            <dd>
+                                                <!--<em>密码：</em>-->
+                                                <div class="inputparent_rlat" style="position: relative;">
+                                                    <label for="Password" style="position: absolute; top: 0px; left: 20px; cursor: text; color: rgb(153, 153, 153); line-height: 45px;">请输入密码</label><input type="password" class="txt_input" phdata="请输入密码"
+                                                        id="spSignin_password" name="Password" style="border: 1px solid rgb(177, 173, 170);"><span></span>
+                                                </div>
+                                            </dd>
+
+                                            <dd class="login-button">
+                                                <input type="checkbox" id="auto_login" name="RememberMe" checked="checked" value="true">&nbsp;
+                                                <label for="auto_login" title="为了账户安全，建议您在个人电脑勾选此项">记住我</label>
+                                                <a href="FindPwd/Index" target="_blank" class="reset_pwd">忘记密码？</a>
+                                                <!-- <a href="#" class="submit_btn" id="spSignin_btn">登 录</a> -->
+                                                <input type="button" class="submit_btn" value=" 登录  " id="btn" />
+                                            </dd>
+                                        </form>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div id="spReg_msg">
+                        <p class="newbox">
+
+                            没有尚品网账号？
+                            <a href="registor.html" id="new-member">"注册新会员"<img src="img/denglu/go_login.png" alt=""></a>
+                        </p>
+                    </div>
+                    <div class="rightinner">
+                        <div class="other-box">
+                            <p class="special">使用以下方式进行登录</p>
+                            <p class="other-inner">
+                                <a href="" title="新浪微博登录" class="weibo"></a>
+                                <a href="" title="腾讯QQ登录" class="qq"></a>
+                                <a href="" title="支付宝登录" class="zfb"></a>
+                            </p>
+                        </div>
+                    </div>
+                    <div style="text-align:center;">
+                        <a href="#"><img src="img/denglu/download.png" alt=""></a>
+                        <p style="padding:5px 0px; font-size:14px;">【扫码下载尚品APP】</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sp-footer">
+        <p id="footer_info">
+            <a href="http://as.shangpin.com/static/about/media.htm" rel="nofollow" target="_blank" title="尚品新闻">尚品新闻</a>
+            <a href="http://as.shangpin.com/static/about/aboutus.htm" rel="nofollow" target="_blank" title="关于尚品">关于尚品</a><a href="http://as.shangpin.com/static/about/joinus.htm" rel="nofollow" target="_blank" title="招聘信息">招聘信息</a>
+            <a href="http://as.shangpin.com/static/about/business.htm" rel="nofollow" target="_blank" title="品牌招商">品牌招商</a>
+            <a href="http://as.shangpin.com/static/about/help.htm" rel="nofollow" target="_blank" title="帮助中心">帮助中心</a>
+            <a href="http://as.shangpin.com/static/about/contact.htm" rel="nofollow" target="_blank" title="联系我们">联系我们</a>
+            <a href="http://union.shangpin.com/static/links/" target="_blank" title="奢侈品友情链接">友情链接</a>
+            <a href="/market/sitemap" target="_blank" title="奢侈品网站地图">网站地图</a>
+            <a title="奢侈品搜索直通车" class="" target="_blank" href="http://www.shangpin.com/zhitongche/" style="border-right:none">搜索直通车</a>
+        </p>
+        <p id="footer_record">
+            <a rel="nofollow" href="http://gawa.bjchy.gov.cn/websearch/" target="_blank">京公网安备110105001984</a>
+            <a rel="nofollow" href="http://www.miibeian.gov.cn/" target="_blank">京ICP备09087291号-2</a>
+            <a rel="nofollow" href="http://www.miibeian.gov.cn/" target="_blank">京ICP证090703号</a><i>
+                Copyright © 2010-2016
+                Shangpin.com All Rights Reserved
+            </i>
+        </p>
+        <p id="footer_auth">
+
+            <a rel="nofollow" href="http://www.alipay.com/aip/aip_validate_list.htm?trust_id=AIP11019677" target="_blank"><img src="https://loginjs.shangpin.com/shangpin/images/foot6.gif?v=809" alt="支付宝特约商家" title="支付宝特约商家" style="opacity: 1;"></a>
+            <a rel="nofollow" href="http://search.szfw.org/cert/l/CX20120918001657001727" style="width: 62px" target="_blank"><img src="https://loginjs.shangpin.com/shangpin/images/public/cx.png" alt="诚信示范企业" title="诚信示范企业" style="opacity: 1;"></a>
+            <a rel="nofollow" href="http://www.315online.com.cn/member/315110114.html" target="_blank"><img src="https://loginjs.shangpin.com/shangpin/images/foot8.gif?v=809" alt="网上交易保障中心" title="网上交易保障中心" style="opacity: 1;"></a>
+            <a rel="nofollow" href="https://www.itrust.org.cn/yz/pjwx.asp?wm=1669117737" target="_blank"><img src="https://loginjs.shangpin.com/shangpin/images/foot10.gif" alt="中国互联网信用评价中心" title="中国互联网信用评价中心" style="opacity: 1;"></a>
+            <a rel="nofollow" href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202012082400506" target="_blank"><img src="https://loginjs.shangpin.com/shangpin/images/foot11.gif" alt="中国电子商务诚信单位" title="中国电子商务诚信单位" style="opacity: 1;"></a>
+        </p>
+    </div>
+    <script src="script/thirdplugins/jquery.js"></script>
+    <script type="text/javascript">
+        function addCookie(key, value, day) {
+            var date = new Date(); //创建日期对象
+            date.setDate(date.getDate() + day); //过期时间：获取当前的日期+天数，设置给date
+            document.cookie = key + '=' + encodeURI(value) + ';expires=' + date; //添加cookie，设置过期时间
+        }
+
+
+        $('#btn').on('click', function() {
+            var $username = $('#spSignin_username').val();
+            var $password = $('#spSignin_password').val();
+            $.ajax({
+                type: 'post',
+                url: '../php/login.php',
+                data: { //将用户名和密码传输给后端
+                    name: $username,
+                    pass: $password
+                },
+                success: function(data) { //请求成功，接收后端返回的值
+                    if (!data) { //用户名或者密码错误
+                        $('.margint40').html('用户名或者密码错误');
+                        $('#spSignin_password').val('');
+                    } else { //成功,存cookie,跳转到首页
+                        addCookie('UserName', $username, 7);
+                        location.href = 'http://localhost/projectname/src/index2.html';
+                    }
+                }
+            })
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,170 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+$box_width:1200px;
+$li:list-style;
+$t:text-decoration;
+$box_height1:28px;
+$t1:text-align;
+body {
+    font-size: 14px;
+    font-family: 'Microsoft yahei';
+}
+
+//尾部
+.footer {
+    padding-top: 20px;
+    .footer-service {
+        background: #000;
+        margin-top: 30px;
+        .sp-container {
+            width: $box_width;
+            margin: 0 auto;
+            img {
+                width: 100%;
+                border: 0;
+                display: block;
+            }
+        }
+    }
+    ;
+    .footer-list {
+        padding-top: 20px;
+        .sp-container {
+            width: $box_width;
+            margin: 0 auto;
+            #{$li}: none;
+            overflow: hidden;
+            .list-item {
+                width: 25%;
+                float: left;
+                ul {
+                    #{$li}: none;
+                    text-align: center;
+                    // text-indent: 41%
+                    .it-title {
+                        line-height: 40px;
+                        font-size: 14px;
+                        color: #000;
+                        font-weight: 700;
+                    }
+                }
+                a {
+                    font-size: 13px;
+                    line-height: 25px;
+                    color: #000;
+                    #{$t}: none;
+                }
+                .foucs-us {
+                    text-align: center;
+                    .i-wechat {
+                        margin-right: 10px;
+                        display: inline-block;
+                        font-size: 30px;
+                        color: #000;
+                        position: relative;
+                        top: 0;
+                        left: 0;
+                    }
+                    .i-blog {
+                        margin-left: 10px;
+                        display: inline-block;
+                        font-size: 30px;
+                        color: #000;
+                        position: relative;
+                        top: 0;
+                        left: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.foucs-us {
+    .wechat-img {
+        position: absolute;
+        top: 30px;
+        width: 140px;
+        height: 180px;
+        display: none;
+    }
+    .weblog-img {
+        position: absolute;
+        top: 30px;
+        width: 140px;
+        height: 180px;
+        display: none;
+    }
+}
+
+// 尾部最后
+.footer-about {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    margin-top: 25px;
+    .footer-container {
+        width: $box_width;
+        margin: 0 auto;
+        .about-sp {
+            text-align: center;
+            height: 28px;
+            ul {
+                // zoom: 1;
+                display: inline-block;
+                #{$li}: none;
+                li {
+                    padding: 0 12px;
+                    line-height: $box_height1;
+                    height: $box_height1;
+                    float: left;
+                    a {
+                        color: #000;
+                        #{$t}: none;
+                    }
+                }
+            }
+        }
+        // 公安
+        .about-ip {
+            color: #555;
+            margin-top: 5px;
+            #{$t1}: center;
+            display: block;
+            a {
+                color: #333;
+                #{$t}: none;
+                cursor: pointer;
+            }
+            i {
+                font-weight: 400;
+                font-style: normal;
+            }
+        }
+    }
+}
+
+// 北京尚品百姿电子商务有限公司
+.info-company {
+    margin: 5px auto 0;
+    font-size: 13px;
+    #{$t1}: center;
+}
+
+// 最后商标
+.info-auth {
+    padding: 10px 0;
+    #{$t1}: center;
+    color: #555;
+    margin-top: 5px;
+    a {
+        padding: 0 4px;
+        font-size: 0;
+        display: inline-block;
+        width: 76px;
+        height: 22px;
+    }
+}

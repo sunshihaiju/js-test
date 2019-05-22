@@ -1,0 +1,291 @@
+@charset "utf-8";
+@import "loginheader"; //引入登录部分的头部文件
+body {
+    font-size: 12px!important;
+    font-weight: 400!important;
+    font-family: 'Microsoft yahei';
+    background: #f6f6f6!important;
+}
+
+#spComm_regloginbox {
+    overflow: hidden;
+    .spComm_regloghook {
+        width: 2000px;
+        .sp_regLoginBox {
+            height: 680px;
+            overflow: hidden;
+            border-radius: 5px;
+            margin-bottom: 36px;
+            float: left;
+            width: 958px;
+            position: relative;
+            .regLoginBox_200 {
+                display: table-cell;
+                text-align: center;
+                width: 958px;
+                height: 30px;
+                a {
+                    vertical-align: middle;
+                    text-align: center;
+                    display: inline-block;
+                    font-size: 16px;
+                    background: #e5e5e5;
+                    padding: 4px 10px;
+                    color: #333;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+            }
+            .regLogin_box {
+                width: 590px;
+                float: left;
+                #spSign_box {
+                    width: 590px;
+                    height: 540px;
+                    position: relative;
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+}
+
+.sp_regLoginBox .splogin_block {
+    background: 0;
+    border: 0 none;
+    width: 496px;
+    text-align: left;
+    padding: 0 0 0 94px;
+    margin-top: 35px;
+    float: left;
+    position: absolute;
+}
+
+.splogin_block ul.tab_change {
+    width: 410px;
+    height: 28px;
+    line-height: 27px;
+    // border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 10px;
+    li {
+        // width: 204px;
+        height: 27px;
+        // color: #3b3b3b;
+        float: left;
+        line-height: 28px;
+        text-align: center;
+        cursor: pointer;
+        a {
+            font-size: 20px;
+            color: #000;
+        }
+    }
+}
+
+//注册新账户下面
+.sp_regLoginBox .splogin_block dl.margint40 {
+    height: 440px;
+}
+
+.splogin_block dl {
+    width: auto;
+    margin: 20px auto 0;
+    dd {
+        overflow: hidden;
+        color: #3b3b3b;
+        height: 75px;
+        // color: #7a7a7a;
+        vertical-align: middle;
+        .inputparent_rlat {
+            width: 410px;
+            float: left;
+            height: 58px;
+            label {
+                font-size: 14px;
+            }
+            i {
+                float: right;
+                height: 45px;
+                display: table-cell;
+                font-weight: 400;
+                font-style: normal;
+                img {
+                    vertical-align: middle;
+                    margin-right: 20px;
+                }
+                a {
+                    display: inline-block;
+                    line-height: 45px;
+                    color: #333;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+            }
+            .txt_input {
+                width: 388px;
+                float: left;
+                display: inline;
+                margin: 0 22px 0 0;
+                height: 27px;
+                line-height: 27px;
+                padding: 8px 10px;
+                color: #999;
+                font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', "宋体";
+                font-size: 16px;
+            }
+            span {
+                overflow: initial;
+                width: 388px;
+                height: 20px;
+                display: none;
+                color: #0700c5;
+                text-align: left;
+                line-height: 23px;
+                padding: 0 0 0 20px;
+                float: left;
+                margin: 5px;
+                background: url(https://loginjs.shangpin.com/shangpin/images/public/sp.gif?v=20190408103921) no-repeat 2px -1046px;
+            }
+        }
+        // input.code_input {
+        //     width: 236px;
+        // }
+    }
+}
+
+.sp_regLoginBox .splogin_block dd input.code_input {
+    width: 236px;
+}
+
+.sp_regLoginBox .splogin_block dd input.veri_input {
+    width: 236px;
+}
+
+// 获取验证码样式
+#passwordGetCode {
+    width: 121px;
+    height: 42px;
+    border: 1px solid #0700c5;
+    display: block;
+    position: absolute;
+    right: 3px;
+    top: 0;
+    text-align: center;
+    font-size: 14px;
+    color: #0700c5;
+    line-height: 42px;
+    text-decoration: none;
+}
+
+// 我以阅读并同意的上面
+.splogin_block dd.sex_login .apSex_box {
+    padding-top: 40px;
+    text-align: left;
+    position: relative;
+    a {
+        text-decoration: none;
+    }
+}
+
+.sp_regLoginBox .splogin_block dl dd.height_40 {
+    height: 50px;
+    input {
+        text-align: center;
+        display: block;
+        width: 410px;
+        height: 49px;
+        line-height: 49px;
+        background: #e5e5e5;
+        color: #fff;
+        float: left;
+        font-size: 18px;
+        text-decoration: none;
+        cursor: pointer;
+        border: 0;
+    }
+}
+
+.box {
+    width: 960px;
+    margin: 0 auto;
+    // overflow: hidden;
+    background-color: #fff;
+}
+
+.right {
+    width: 367px;
+    height: 440px;
+    margin-top: 100px;
+    border-left: 1px solid #e7e7e7;
+    float: right;
+    #spReg_msg {
+        padding-bottom: 22px;
+        .newbox {
+            font-size: 16px;
+            padding-left: 61px;
+            #new-member {
+                position: relative;
+                width: 115px;
+                text-align: left;
+                font-size: 18px;
+                display: block;
+                padding-left: 55px;
+                margin: 18px 0 0;
+                color: #0700c5;
+                text-decoration: none;
+                cursor: pointer;
+                img {
+                    position: absolute;
+                    // z-index: 2;
+                    right: -10px;
+                    top: 0px;
+                    border: 0;
+                }
+            }
+        }
+    }
+    // 右面内容
+    .rightinner {
+        width: 300px;
+        margin: 0 auto;
+        .other-box {
+            margin-bottom: 34px;
+            .special {
+                border-top: 1px dashed #000;
+                padding-top: 30px;
+                font-size: 14px;
+                text-align: center;
+            }
+            .other-inner {
+                padding-left: 0;
+                padding-top: 30px;
+                text-align: center;
+                font-size: 14px;
+                a {
+                    width: 51px;
+                    height: 50px;
+                    margin-bottom: 8px;
+                    margin-right: 20px;
+                    color: #333;
+                    text-decoration: none;
+                    cursor: pointer;
+                    display: inline-block;
+                }
+                .weibo {
+                    background: url(../img/denglu/sina_ico.png) no-repeat 0 0;
+                    margin-left: 15px;
+                }
+                .qq {
+                    background: url(../img/denglu/qq_ico.png) no-repeat 0 0;
+                }
+                .zfb {
+                    background: url(../img/denglu/pay_ico.png) no-repeat 0 0;
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
+
+// 右边的已有尚品账号
+@import "loginfooter"; //引入登录部分的尾部文件

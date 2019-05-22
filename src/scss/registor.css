@@ -1,0 +1,306 @@
+@charset "UTF-8";
+body {
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  font-family: 'Microsoft yahei';
+  background: #f6f6f6 !important; }
+
+#logo {
+  background: #f6f6f6;
+  padding: 20px 0;
+  text-align: center;
+  height: 40px; }
+
+.box {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative; }
+
+body {
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  font-family: 'Microsoft yahei';
+  background: #f6f6f6 !important; }
+
+#spComm_regloginbox {
+  overflow: hidden; }
+  #spComm_regloginbox .spComm_regloghook {
+    width: 2000px; }
+    #spComm_regloginbox .spComm_regloghook .sp_regLoginBox {
+      height: 680px;
+      overflow: hidden;
+      border-radius: 5px;
+      margin-bottom: 36px;
+      float: left;
+      width: 958px;
+      position: relative; }
+      #spComm_regloginbox .spComm_regloghook .sp_regLoginBox .regLoginBox_200 {
+        display: table-cell;
+        text-align: center;
+        width: 958px;
+        height: 30px; }
+        #spComm_regloginbox .spComm_regloghook .sp_regLoginBox .regLoginBox_200 a {
+          vertical-align: middle;
+          text-align: center;
+          display: inline-block;
+          font-size: 16px;
+          background: #e5e5e5;
+          padding: 4px 10px;
+          color: #333;
+          text-decoration: none;
+          cursor: pointer; }
+      #spComm_regloginbox .spComm_regloghook .sp_regLoginBox .regLogin_box {
+        width: 590px;
+        float: left; }
+        #spComm_regloginbox .spComm_regloghook .sp_regLoginBox .regLogin_box #spSign_box {
+          width: 590px;
+          height: 540px;
+          position: relative;
+          overflow: hidden; }
+
+.sp_regLoginBox .splogin_block {
+  background: 0;
+  border: 0 none;
+  width: 496px;
+  text-align: left;
+  padding: 0 0 0 94px;
+  margin-top: 35px;
+  float: left;
+  position: absolute; }
+
+.splogin_block ul.tab_change {
+  width: 410px;
+  height: 28px;
+  line-height: 27px;
+  padding-bottom: 10px; }
+  .splogin_block ul.tab_change li {
+    height: 27px;
+    float: left;
+    line-height: 28px;
+    text-align: center;
+    cursor: pointer; }
+    .splogin_block ul.tab_change li a {
+      font-size: 20px;
+      color: #000; }
+
+.sp_regLoginBox .splogin_block dl.margint40 {
+  height: 440px; }
+
+.splogin_block dl {
+  width: auto;
+  margin: 20px auto 0; }
+  .splogin_block dl dd {
+    overflow: hidden;
+    color: #3b3b3b;
+    height: 75px;
+    vertical-align: middle; }
+    .splogin_block dl dd .inputparent_rlat {
+      width: 410px;
+      float: left;
+      height: 58px; }
+      .splogin_block dl dd .inputparent_rlat label {
+        font-size: 14px; }
+      .splogin_block dl dd .inputparent_rlat i {
+        float: right;
+        height: 45px;
+        display: table-cell;
+        font-weight: 400;
+        font-style: normal; }
+        .splogin_block dl dd .inputparent_rlat i img {
+          vertical-align: middle;
+          margin-right: 20px; }
+        .splogin_block dl dd .inputparent_rlat i a {
+          display: inline-block;
+          line-height: 45px;
+          color: #333;
+          text-decoration: none;
+          cursor: pointer; }
+      .splogin_block dl dd .inputparent_rlat .txt_input {
+        width: 388px;
+        float: left;
+        display: inline;
+        margin: 0 22px 0 0;
+        height: 27px;
+        line-height: 27px;
+        padding: 8px 10px;
+        color: #999;
+        font-family: 'PingHei', 'PingFang SC', 'Helvetica Neue', 'Helvetica', "宋体";
+        font-size: 16px; }
+      .splogin_block dl dd .inputparent_rlat span {
+        overflow: initial;
+        width: 388px;
+        height: 20px;
+        display: none;
+        color: #0700c5;
+        text-align: left;
+        line-height: 23px;
+        padding: 0 0 0 20px;
+        float: left;
+        margin: 5px;
+        background: url(https://loginjs.shangpin.com/shangpin/images/public/sp.gif?v=20190408103921) no-repeat 2px -1046px; }
+
+.sp_regLoginBox .splogin_block dd input.code_input {
+  width: 236px; }
+
+.sp_regLoginBox .splogin_block dd input.veri_input {
+  width: 236px; }
+
+#passwordGetCode {
+  width: 121px;
+  height: 42px;
+  border: 1px solid #0700c5;
+  display: block;
+  position: absolute;
+  right: 3px;
+  top: 0;
+  text-align: center;
+  font-size: 14px;
+  color: #0700c5;
+  line-height: 42px;
+  text-decoration: none; }
+
+.splogin_block dd.sex_login .apSex_box {
+  padding-top: 40px;
+  text-align: left;
+  position: relative; }
+  .splogin_block dd.sex_login .apSex_box a {
+    text-decoration: none; }
+
+.sp_regLoginBox .splogin_block dl dd.height_40 {
+  height: 50px; }
+  .sp_regLoginBox .splogin_block dl dd.height_40 .submit_btn {
+    text-align: center;
+    display: block;
+    width: 410px;
+    height: 49px;
+    line-height: 49px;
+    background: #e5e5e5;
+    color: #fff;
+    float: left;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer; }
+
+.box {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #fff; }
+
+.right {
+  width: 367px;
+  height: 440px;
+  margin-top: 100px;
+  border-left: 1px solid #e7e7e7;
+  float: right; }
+  .right #spReg_msg {
+    padding-bottom: 22px; }
+    .right #spReg_msg .newbox {
+      font-size: 16px;
+      padding-left: 61px; }
+      .right #spReg_msg .newbox #new-member {
+        position: relative;
+        width: 115px;
+        text-align: left;
+        font-size: 18px;
+        display: block;
+        padding-left: 55px;
+        margin: 18px 0 0;
+        color: #0700c5;
+        text-decoration: none;
+        cursor: pointer; }
+        .right #spReg_msg .newbox #new-member img {
+          position: absolute;
+          right: -10px;
+          top: 0px;
+          border: 0; }
+  .right .rightinner {
+    width: 300px;
+    margin: 0 auto; }
+    .right .rightinner .other-box {
+      margin-bottom: 34px; }
+      .right .rightinner .other-box .special {
+        border-top: 1px dashed #000;
+        padding-top: 30px;
+        font-size: 14px;
+        text-align: center; }
+      .right .rightinner .other-box .other-inner {
+        padding-left: 0;
+        padding-top: 30px;
+        text-align: center;
+        font-size: 14px; }
+        .right .rightinner .other-box .other-inner a {
+          width: 51px;
+          height: 50px;
+          margin-bottom: 8px;
+          margin-right: 20px;
+          color: #333;
+          text-decoration: none;
+          cursor: pointer;
+          display: inline-block; }
+        .right .rightinner .other-box .other-inner .weibo {
+          background: url(../img/denglu/sina_ico.png) no-repeat 0 0;
+          margin-left: 15px; }
+        .right .rightinner .other-box .other-inner .qq {
+          background: url(../img/denglu/qq_ico.png) no-repeat 0 0; }
+        .right .rightinner .other-box .other-inner .zfb {
+          background: url(../img/denglu/pay_ico.png) no-repeat 0 0;
+          margin-right: 0; }
+
+body {
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  font-family: 'Microsoft yahei';
+  background: #f6f6f6 !important; }
+
+.sp-footer {
+  margin-top: 10px;
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #fff;
+  position: relative; }
+  .sp-footer #footer_info {
+    background: #333;
+    height: 44px;
+    line-height: 36px;
+    color: #666;
+    text-align: center;
+    overflow: hidden; }
+    .sp-footer #footer_info a {
+      float: left;
+      display: inline;
+      vertical-align: middle;
+      width: 105px;
+      text-align: center;
+      border-right: 1px solid #474747;
+      color: #fff;
+      padding: 4px 0;
+      overflow: hidden;
+      text-decoration: none;
+      cursor: pointer; }
+  .sp-footer #footer_record {
+    padding: 12px 0;
+    text-align: center;
+    line-height: 30px; }
+    .sp-footer #footer_record a {
+      padding: 0 8px 0 0;
+      color: #333;
+      text-decoration: none;
+      cursor: pointer; }
+    .sp-footer #footer_record i {
+      font-style: normal; }
+  .sp-footer #footer_auth {
+    padding: 0 0 20px;
+    text-align: center; }
+    .sp-footer #footer_auth a {
+      padding: 0 4px;
+      font-size: 0;
+      display: inline-block;
+      width: 76px;
+      height: 22px;
+      color: #333;
+      text-decoration: none;
+      cursor: pointer; }
+
+/*# sourceMappingURL=registor.css.map */

@@ -1,0 +1,61 @@
+@charset "utf-8";
+@import "header";
+
+/*引入主页部分的头部文件*/
+
+
+/* hover时实现图片的放大和缩小*/
+
+.container .effect:hover img {
+    opacity: 1;
+    transform: scale3d(1.1, 1.1, 1);
+}
+
+
+/* 右面工具部分 hover时出现客服 微信 app等图标*/
+
+
+/* 对微信 APP两张图片进行定位*/
+
+.right-tool .tp {
+    position: relative;
+}
+
+.right-tool .tp span {
+    position: absolute;
+    top: 0px;
+    left: -153px;
+}
+
+.right-tool a {
+    p {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 9px 0;
+        color: #0700c5!important;
+        display: none;
+    }
+}
+
+.right-tool span {
+    display: none;
+    img {
+        border: 0;
+        display: block;
+        z-index: 50;
+    }
+}
+
+// .right-tool a:hover {
+//     text-decoration: none;
+//     span img {
+//         display: block;
+//     }
+//     img {
+//         display: none;
+//     }
+//     p {
+//         display: block;
+//     }
+// }
+@import "footer"; //引入主页部分的尾部文件

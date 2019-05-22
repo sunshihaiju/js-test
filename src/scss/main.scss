@@ -1,0 +1,178 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    font-family: 'Microsoft yahei';
+}
+
+// 公共部分;
+$box_height:78px;
+$box_width:1200px;
+$li:list-style;
+$t:text-decoration;
+$t1:text-align;
+$m:0 auto;
+.home {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    .container {
+        width: $box_width;
+        margin: $m;
+        .masonry clr {
+            margin: $m;
+            width: 1230px;
+            margin-left: -15px;
+            // a {
+            //     position: relative;
+            //     float: left;
+            //     display: block;
+            //     overflow: hidden;
+            //     // height: auto;
+            //     text-align: center;
+            //     #{$t}: none;
+            //     img {
+            //         position: relative;
+            //         display: block;
+            //     }
+            // }
+        }
+    }
+}
+
+.home .item {
+    box-sizing: border-box;
+    font-size: 0;
+    text-align: center;
+    color: #FFF;
+    float: left;
+    overflow: hidden;
+    margin: 15px;
+    position: relative;
+    list-style: none;
+}
+
+.home .clr ul {
+    overflow: hidden;
+}
+
+.home a {
+    position: relative;
+    float: left;
+    display: block;
+    overflow: hidden;
+    // height: auto;
+    text-align: center;
+    #{$t}: none;
+    img {
+        position: relative;
+        display: block;
+    }
+}
+
+// 公共的图片部分
+// 杨幂私服七折
+.item.h5 {
+    width: 570px;
+    height: 417px;
+    // float: left;
+    img {
+        width: 585px;
+        height: 367px;
+    }
+}
+
+// 文字部分
+.item section {
+    background: #fff;
+    width: 100%;
+    height: 50px;
+    position: relative;
+    z-index: 10;
+    span {
+        width: 100%;
+        display: block;
+        font-size: 17px;
+        background: #fff;
+        height: 25px;
+        text-align: center;
+        color: #000;
+        text-decoration: none;
+    }
+}
+
+// 蒙娜丽莎
+.item.h6 {
+    width: 779px;
+    height: 538px;
+    margin: 15px 14px;
+    img {
+        width: 807px;
+        height: 488px;
+    }
+}
+
+.item.h4 {
+    width: 365px;
+    height: 537px;
+    margin: 15px 14px;
+    img {
+        width: 365px;
+        height: 487px;
+    }
+}
+
+// 路易斯威登
+// 香奈尔 moco fendi
+.home .content_nana {
+    margin: $m;
+    width: 1230px;
+    margin-left: 0!important;
+    .i3 {
+        height: auto!important;
+        margin: 15px!important;
+        a {
+            height: auto!important;
+            img {
+                position: relative;
+                display: block;
+                width: 380px!important;
+                border: 0
+            }
+        }
+    }
+}
+
+// 右面工具部分 层级顺序未写
+.right-tool {
+    border-top: 1px solid #666;
+    position: fixed;
+    right: 2px;
+    top: 50%;
+    margin-top: -100px;
+    // z-index: 100000;
+    width: 30px;
+    height: 215px;
+    .dd {
+        border-bottom: 1px solid #666;
+        height: 51px;
+        position: relative;
+        a {
+            #{$t}: none;
+            img {
+                border: 0;
+            }
+            ;
+            p {
+                font-size: 14px;
+                line-height: 16px;
+                padding: 9px 0;
+                color: blueviolet;
+            }
+        }
+    }
+}

@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-size: 14px;
+  font-family: 'Microsoft yahei'; }
+
+.home {
+  position: relative;
+  width: 100%;
+  overflow: hidden; }
+  .home .container {
+    width: 1200px;
+    margin: 0 auto; }
+    .home .container .masonry clr {
+      margin: 0 auto;
+      width: 1230px;
+      margin-left: -15px; }
+
+.home .item {
+  box-sizing: border-box;
+  font-size: 0;
+  text-align: center;
+  color: #FFF;
+  float: left;
+  overflow: hidden;
+  margin: 15px;
+  position: relative;
+  list-style: none; }
+
+.home .clr ul {
+  overflow: hidden; }
+
+.home a {
+  position: relative;
+  float: left;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none; }
+  .home a img {
+    position: relative;
+    display: block; }
+
+.item.h5 {
+  width: 570px;
+  height: 417px; }
+  .item.h5 img {
+    width: 585px;
+    height: 367px; }
+
+.item section {
+  background: #fff;
+  width: 100%;
+  height: 50px;
+  position: relative;
+  z-index: 10; }
+  .item section span {
+    width: 100%;
+    display: block;
+    font-size: 17px;
+    background: #fff;
+    height: 25px;
+    text-align: center;
+    color: #000;
+    text-decoration: none; }
+
+.item.h6 {
+  width: 779px;
+  height: 538px;
+  margin: 15px 14px; }
+  .item.h6 img {
+    width: 807px;
+    height: 488px; }
+
+.item.h4 {
+  width: 365px;
+  height: 537px;
+  margin: 15px 14px; }
+  .item.h4 img {
+    width: 365px;
+    height: 487px; }
+
+.home .content_nana {
+  margin: 0 auto;
+  width: 1230px;
+  margin-left: 0 !important; }
+  .home .content_nana .i3 {
+    height: auto !important;
+    margin: 15px !important; }
+    .home .content_nana .i3 a {
+      height: auto !important; }
+      .home .content_nana .i3 a img {
+        position: relative;
+        display: block;
+        width: 380px !important;
+        border: 0; }
+
+.right-tool {
+  border-top: 1px solid #666;
+  position: fixed;
+  right: 2px;
+  top: 50%;
+  margin-top: -100px;
+  width: 30px;
+  height: 215px; }
+  .right-tool .dd {
+    border-bottom: 1px solid #666;
+    height: 51px;
+    position: relative; }
+    .right-tool .dd a {
+      text-decoration: none; }
+      .right-tool .dd a img {
+        border: 0; }
+      .right-tool .dd a p {
+        font-size: 14px;
+        line-height: 16px;
+        padding: 9px 0;
+        color: blueviolet; }
+
+/*# sourceMappingURL=main.css.map */
